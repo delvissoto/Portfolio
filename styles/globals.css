@@ -3,7 +3,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
+body{
+   
+}
 
 .navbar{
     display: flex;
@@ -54,14 +56,18 @@ background-color: rgb(255, 255, 255);
 
 }
 .homeSecOne{
-    flex-wrap: wrap;
 height: 100vh;
+}
+
+.homeSecOneinner{
+    height: 70%;
 display: flex;
 justify-content: center;
 align-items: center;
+flex-wrap: wrap;
 
 }
-.homeSecOne h3{
+.homeSecOneinner h3{
     text-align: center;
    
 }
@@ -90,11 +96,27 @@ h1{
     margin-right: 20px;
 }
 
-
-
-/* Second section homescreen  */
-
-
-.HomeSreentwo{
-
+.TechStacksDiv{
+    display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+    
 }
+.TeckStack{
+    height: 40px;
+    width: 50px;
+    margin-left: 3%;
+}
+
+
+
+.Stacks{
+    
+}
+
+
+
+
+
+
+

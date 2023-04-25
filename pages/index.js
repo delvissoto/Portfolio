@@ -4,7 +4,12 @@ import Link from 'next/link'
 import Navbar from '@/components/Navbar'
 import Image from 'next/image'
 import myimage from '../public/DelvisSoto.JPG'
-
+import cssImage from '../public/css.png'
+import htmlImage from '../public/html5_0.png'
+import jsImage from '../public/JavaScript-Logo.png'
+import reactImage from '../public/react.jpg'
+import nextImage from '../public/nextjs.png'
+import nodeImage from '../public/nodejs.png'
 
 
 export default function Home() {
@@ -16,6 +21,8 @@ export default function Home() {
       <Navbar/>
     <main >
       <div className='homeSecOne'>
+
+      <div className='homeSecOneinner'>
         <div>
           <h1>FullStack Developer 👋</h1>
           <h3>Hi There! Im Delvis Soto<br/> I'm a FullStack Web Developer<br/> Based in Fort Riley,Kansas.📍</h3>
@@ -37,8 +44,25 @@ export default function Home() {
     
   
     </div>
-    <div className='HomeScreentwo'>
-
+          <div className='TechStacksDiv'>
+            <p className='Stacks'>Tech Stack |</p>
+              <Image className='TeckStack' src={cssImage} alt=''/>
+              <Image className='TeckStack' src={htmlImage} alt=''/>
+              <Image className='TeckStack' src={jsImage} alt=''/>
+              <Image className='TeckStack' src={reactImage} alt=''/>
+              <Image className='TeckStack' src={nextImage} alt=''/>
+              <Image className='TeckStack' src={nodeImage} alt=''/>
+          </div>
+    </div>
+    <div >
+      <div>
+        <p>About Me</p>
+        <h2>A dedicated Full-Stack Web Developer based in Fort Riley, Kansas📍</h2>
+        <br/>
+      </div>
+      <div>
+        <h4>Proyects</h4>
+      </div>
     </div>
     </main>
     </div>
