@@ -1,4 +1,100 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
+
+.navbar{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 254, 254);
+    /* background-blend-mode: ; */
+    width: 100vw;
+    color: Black;
+    height: 45px;
+}
+.navbarsubone{
+    margin-left: 5%;
+    width: 250px;
+    text-align: center;
+    
+}
+.navbarsubone:hover{
+ color:rgb(94, 139, 221);
+}
+
+.navbarsub{
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.navbarsubli{
+    padding-left: 30px;
+    
+
+}
+.navbarsubli:hover{
+    font-size: 23px;
+    color: rgb(94, 139, 221);
+}
+
+
+/* Index.js Screen Style*/
+
+.HomeScreen{
+width: 100vw;
+background-color: rgb(255, 255, 255);
+
+}
+.homeSecOne{
+    flex-wrap: wrap;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.homeSecOne h3{
+    text-align: center;
+   
+}
+
+
+.profileimagearea{
+ 
+}
+.ProfileImage{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+
+   
+}
+h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.socialMedia{
+    display: flex;
+}
+.socialMediaLinks{
+    margin-right: 20px;
+}
+
+
+
+/* Second section homescreen  */
+
+
+.HomeSreentwo{
+
+}
