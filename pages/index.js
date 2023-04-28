@@ -5,7 +5,7 @@ import Navbar from '@/components/Navbar'
 import Aboutme from './Aboutme'
 import Contact from './Contact'
 import Image from 'next/image'
-import myimage from '../public/DelvisSoto.JPG'
+import usImage from '../public/me&Love.jpg'
 import cssImage from '../public/css.png'
 import htmlImage from '../public/html5_0.png'
 import jsImage from '../public/JavaScript-Logo.png'
@@ -43,7 +43,7 @@ export default function Home() {
           </div>
         </div>
         <div className='profileimagearea'>
-          <Image className='ProfileImage' src={myimage} alt='Delvis Soto Soto' />
+          <Image className='ProfileImage' src={usImage} alt='Delvis Soto Soto' />
         </div>
     
   
