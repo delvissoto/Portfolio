@@ -29,7 +29,7 @@ export default function Home() {
       <div className='homeSecOneinner'>
         <div>
           <h1>FullStack Developer 👋</h1>
-          <p className='lightgreytext'>Hi There! Im Delvis Soto<br/> I'm a FullStack Web Developer<br/> Based in Fort Riley,Kansas.📍</p>
+          <p className='lightgreytext'>Hi There! Im Delvis Soto I&apos;m a FullStack<br/> Web Developer Based in Fort Riley,Kansas.📍</p>
           <div className='socialMedia'>
             <a className='socialMediaLinks' href='https://www.linkedin.com/in/delvis-soto-soto/'><img  src='https://www.nicepng.com/png/detail/461-4616944_linkedin-logo-png-linked-in-icon-svg.png' alt='linkedin' width={30}></img></a>
             <a className='socialMediaLinks' href='https://github.com/delvissoto'><img src='https://www.logotypes101.com/logos/612/3BF36CF1857F8854E2C416AC23E2397F/github_logo.png' alt='github' width={30}></img></a>
