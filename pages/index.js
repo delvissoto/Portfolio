@@ -3,6 +3,7 @@ import Link from 'next/link'
 // import {BsFillMoonStarsFill} from 'react-icons/bs'
 import Navbar from '@/components/Navbar'
 import Aboutme from './Aboutme'
+import Contact from './Contact'
 import Image from 'next/image'
 import myimage from '../public/DelvisSoto.JPG'
 import cssImage from '../public/css.png'
@@ -59,6 +60,7 @@ export default function Home() {
     </div>
     <Aboutme/>
    <Proyects/>
+   <Contact/>
     </main>
     </div>
   )

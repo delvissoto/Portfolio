@@ -8,7 +8,7 @@ body{
 }
 .lightgreytext{
     color: rgb(126, 123, 123);
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
   
  
@@ -146,23 +146,42 @@ border-radius: 40%;
 /* proyects area */
  
 .ProyectsArea{
-  
-    display: flex;
-            
-    justify-content: center;
 
-        height: 100vh;
-            
+        height: 100vh;    
              width: 100vw;
+            
+}
+.proyect{
+    text-align: center;
+}
+.portfolioImage{
+    height: 45%;
+    border: 5px solid bisque;
+}
+.portfolioSubDiv{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.portfoliotext{
+    width: 45%;
+    text-align: center;
+}
+.lenguageused{
+margin-left: 20px;
+}
 
-                align-items: center;
-
-                      text-align: center;
-                                
-                         flex-wrap: wrap;
+.codeDemo{
+margin-left: 25px;
 }
 
 
 
 
 
+/* footer */
+.footer{
+    background-color: black;
+    color: white;
+}
