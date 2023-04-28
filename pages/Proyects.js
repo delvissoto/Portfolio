@@ -1,10 +1,12 @@
 import React from 'react'
-import Navbar from '@/components/Navbar'
+
 
 
 const Proyects = () => {
   return (
-    <div>Proyects</div>
+    <div className='proyectsArea'>
+      <h1>Proyects</h1>
+    </div>
   )
 }
 

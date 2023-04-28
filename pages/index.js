@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 // import {BsFillMoonStarsFill} from 'react-icons/bs'
 import Navbar from '@/components/Navbar'
+import Aboutme from './Aboutme'
 import Image from 'next/image'
 import myimage from '../public/DelvisSoto.JPG'
 import cssImage from '../public/css.png'
@@ -10,6 +11,8 @@ import jsImage from '../public/JavaScript-Logo.png'
 import reactImage from '../public/react.jpg'
 import nextImage from '../public/nextjs.png'
 import nodeImage from '../public/nodejs.png'
+import Proyects from './Proyects'
+
 
 
 export default function Home() {
@@ -25,7 +28,7 @@ export default function Home() {
       <div className='homeSecOneinner'>
         <div>
           <h1>FullStack Developer 👋</h1>
-          <h3>Hi There! Im Delvis Soto<br/> I'm a FullStack Web Developer<br/> Based in Fort Riley,Kansas.📍</h3>
+          <p className='lightgreytext'>Hi There! Im Delvis Soto<br/> I'm a FullStack Web Developer<br/> Based in Fort Riley,Kansas.📍</p>
           <div className='socialMedia'>
             <a className='socialMediaLinks' href='https://www.linkedin.com/in/delvis-soto-soto/'><img  src='https://www.nicepng.com/png/detail/461-4616944_linkedin-logo-png-linked-in-icon-svg.png' alt='linkedin' width={30}></img></a>
             <a className='socialMediaLinks' href='https://github.com/delvissoto'><img src='https://www.logotypes101.com/logos/612/3BF36CF1857F8854E2C416AC23E2397F/github_logo.png' alt='github' width={30}></img></a>
@@ -54,16 +57,8 @@ export default function Home() {
               <Image className='TeckStack' src={nodeImage} alt=''/>
           </div>
     </div>
-    <div >
-      <div>
-        <p>About Me</p>
-        <h2>A dedicated Full-Stack Web Developer based in Fort Riley, Kansas📍</h2>
-        <br/>
-      </div>
-      <div>
-        <h4>Proyects</h4>
-      </div>
-    </div>
+    <Aboutme/>
+   <Proyects/>
     </main>
     </div>
   )
