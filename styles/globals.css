@@ -186,5 +186,41 @@ margin-left: 25px;
     background-color: black;
     color: white;
     width: 100vw;
-    height: 300px;
+    
+}
+.navbarsubFooter{
+        display: none;
+}
+.ContactUl{
+    justify-content: space-around;
+    display: flex; 
+    flex-wrap: wrap;    
+    align-items: center;
+}
+
+@media screen and (max-width: 650px) {
+    .navbar{
+        display: none;
+    }
+    .footer{
+        display: flex;
+        position: fixed;
+        align-items: center;
+        justify-content: space-around;
+        bottom:0;
+        left: 0;
+        background-color: rgb(255, 254, 254);
+        /* background-blend-mode: ; */
+        width: 100vw;
+        color: Black;
+        height: 45px;
+        
+    }
+    .navbarsubFooter{
+        display: contents;
+
+    }
+    .ContactUl{
+        display:none;
+    }
 }

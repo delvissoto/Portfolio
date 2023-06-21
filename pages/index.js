@@ -12,6 +12,7 @@ import jsImage from '../public/JavaScript-Logo.png'
 import reactImage from '../public/react.jpg'
 import nextImage from '../public/nextjs.png'
 import nodeImage from '../public/nodejs.png'
+import pythonImage from 'public/Python.png'
 import Proyects from './Proyects'
 
 
@@ -26,7 +27,7 @@ export default function Home() {
     <main >
       <div className='homeSecOne'>
 
-      <div className='homeSecOneinner'>
+      <div className='homeSecOneinner' id='MySkills'>
         <div>
           <h1>FullStack Developer 👋</h1>
           <p className='lightgreytext'>Hi There! Im Delvis Soto I&apos;m a FullStack<br/> Web Developer Based in Fort Riley,Kansas.📍</p>
@@ -48,19 +49,28 @@ export default function Home() {
     
   
     </div>
-          <div className='TechStacksDiv'>
+          <div className='TechStacksDiv' >
             <p className='Stacks'>Tech Stack |</p>
-              <Image className='TeckStack' src={cssImage} alt=''/>
-              <Image className='TeckStack' src={htmlImage} alt=''/>
-              <Image className='TeckStack' src={jsImage} alt=''/>
-              <Image className='TeckStack' src={reactImage} alt=''/>
-              <Image className='TeckStack' src={nextImage} alt=''/>
-              <Image className='TeckStack' src={nodeImage} alt=''/>
+              <Image className='TeckStack' src={cssImage} alt='CSS'/>
+              <Image className='TeckStack' src={htmlImage} alt='HTML'/>
+              <Image className='TeckStack' src={jsImage} alt='JS'/>
+              <Image className='TeckStack' src={reactImage} alt='React '/>
+              <Image className='TeckStack' src={nextImage} alt='Next Js '/>
+              <Image className='TeckStack' src={nodeImage} alt='Node'/>
+              <Image className='TeckStack' src={pythonImage} alt='python'/>
+              {/* Add images needed to complete my stack knowledge */}
+              <Image className='TechStack'/>
           </div>
     </div>
+    <div id='MyAboutme'>
     <Aboutme/>
+    </div >
+    <div id='MyProyects'>
    <Proyects/>
+   </div>
+   <div id='MyContact'>
    <Contact/>
+   </div>
     </main>
     </div>
   )
