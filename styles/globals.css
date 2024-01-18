@@ -57,7 +57,7 @@ nav li::after {
     bottom:0;
     height: 3px;
     width: 100%;
-    background: orangered;
+    background: rgb(38, 121, 110);
     scale: 0 1 ;
     transition: scale 250ms,
     translate 250ms;
@@ -225,7 +225,7 @@ margin-left: 25px;
 
 /* footer */
 .footer{
-    background-color: black;
+    background-color: rgb(216, 184, 148);
     color: white;
     width: 100vw;
     height: 150px;
@@ -235,7 +235,8 @@ margin-left: 25px;
         display: none;
 }
 .ContactUl{
-    justify-content: space-around;
+    
+    
     display: flex; 
     flex-wrap: wrap;    
     align-items: center;
@@ -245,7 +246,7 @@ margin-left: 25px;
     .navbar{
         display: none;
     }
-    .footer{
+    .footersmall{
         display: flex;
         position: fixed;
         align-items: center;
@@ -263,7 +264,5 @@ margin-left: 25px;
         display: contents;
 
     }
-    .ContactUl{
-        display:none;
-    }
+    
 }

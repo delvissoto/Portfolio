@@ -3,7 +3,6 @@ import Link from 'next/link'
 // import {BsFillMoonStarsFill} from 'react-icons/bs'
 import Navbar from '@/components/Navbar'
 import Aboutme from './Aboutme'
-import Contact from './Contact'
 import Image from 'next/image'
 import usImage from '../public/me&Love.jpg'
 import profileImage from '../public/myimage.png'
@@ -17,6 +16,8 @@ import nodeImage from '../public/nodejs-icon.svg'
 import pythonImage from 'public/Python.png'
 import phpImage from '../public/phpImage.png'
 import Proyects from './Proyects'
+import BigFooter from '@/components/BigFooter'
+import SmallFooter from '@/components/SmallFooter'
 
 
 
@@ -75,7 +76,8 @@ export default function Home() {
    <Proyects/>
    </div>
    <div id='MyContact'>
-   <Contact/>
+  <BigFooter/>
+  <SmallFooter/>
    </div>
     </main>
     </div>
