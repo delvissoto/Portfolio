@@ -155,7 +155,10 @@ border-radius: 40%;
     text-align: center;
 }
 .portfolioImage{
-    height: 45%;
+    height: 35%;
+    width: 35%;
+    border-radius: 25%;
+    border: 5px solid Black;
     
 }
 .portfolioSubDiv{
@@ -186,6 +189,7 @@ margin-left: 25px;
     background-color: black;
     color: white;
     width: 100vw;
+    height: 150px;
     
 }
 .navbarsubFooter{

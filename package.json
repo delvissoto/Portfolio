@@ -19,5 +19,17 @@
     "react-dom": "18.2.0",
     "react-icons": "^4.8.0",
     "tailwindcss": "3.3.1"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delvissoto/Portfolio.git"
+  },
+  "author": "Delvis Soto Soto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/delvissoto/Portfolio/issues"
+  },
+  "homepage": "https://github.com/delvissoto/Portfolio#readme"
 }
