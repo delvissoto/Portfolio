@@ -6,14 +6,18 @@ import Aboutme from './Aboutme'
 import Contact from './Contact'
 import Image from 'next/image'
 import usImage from '../public/me&Love.jpg'
+import profileImage from '../public/myimage.png'
 import cssImage from '../public/css.png'
 import htmlImage from '../public/html5_0.png'
-import jsImage from '../public/JavaScript-Logo.png'
+import jsImage from '../public/jslogo.png'
 import reactImage from '../public/react.jpg'
+import reduxImage from '../public/Reduxlogo.png'
 import nextImage from '../public/nextjs.png'
-import nodeImage from '../public/nodejs.png'
+import nodeImage from '../public/nodejs-icon.svg'
 import pythonImage from 'public/Python.png'
+import phpImage from '../public/phpImage.png'
 import Proyects from './Proyects'
+
 
 
 
@@ -44,7 +48,7 @@ export default function Home() {
           </div>
         </div>
         <div className='profileimagearea'>
-          <Image className='ProfileImage' src={usImage} alt='Delvis Soto Soto' />
+          <Image className='ProfileImage' src={profileImage} alt='Delvis Soto Soto' />
         </div>
     
   
@@ -55,9 +59,11 @@ export default function Home() {
               <Image className='TeckStack' src={htmlImage} alt='HTML'/>
               <Image className='TeckStack' src={jsImage} alt='JS'/>
               <Image className='TeckStack' src={reactImage} alt='React '/>
+              <Image className='TeckStack' src={reduxImage} alt='Redux'/>
               <Image className='TeckStack' src={nextImage} alt='Next Js '/>
               <Image className='TeckStack' src={nodeImage} alt='Node'/>
               <Image className='TeckStack' src={pythonImage} alt='python'/>
+              <Image className='TeckStack' src={phpImage} alt='php'/>
               {/* Add images needed to complete my stack knowledge */}
               <Image className='TechStack'/>
           </div>
